@@ -1,0 +1,45 @@
+# Disable sudo to speed up the build
+sudo: false
+
+# Set the build language to Python
+language: python
+
+# Cache to speed up the build
+cache: pip
+
+# Set the python versions
+python: 3.7
+
+# Addons
+addons:
+  postgresql: '9.6'
+  sonarcloud:
+    organization: "tnmthai-github"
+    token:
+      secure: "X15m2K10UvBo2wdEehUHCCEaxnTq71ZlYUwJcwZLq7yudDrEhvySYtA0UGfXpgYsHN2+Z36lO6jJk/yrxrhQ8iUomY2WL05FNE1SVF8LDh2d34hleL68201LUQnav6fil4/86Fn4Kai1/e/VTSp9YcB4mvFailehXAFRWrjEZcDkA/sxSxBIF54kfVJ87ZksvVHpYZnJAuDaz3JCaW2Ggd4wLSteUr0i4iDx9Zhx7usHjis0mnJjE+iMJvh0aLq2DQ7T0K8OEmjCytdNMh1NBO3l7teYJBBt6+LyBJU4j0vmC7hSh36EpxxdeDVd7HHKHN/uS3kqMoYGtQM30DnoK0Y+8y684ixmVTxIaFS+vsSJXAqbyRtHf/n7fP5AzLmqq9Y3Wp4ZbtdiTyVOkM9hqpyNScZX+/n5jvCBJsw/AQjwbOQptLhFFJs0WjcH2NQ6YDLVLr4jreBuaOi89tSHaR+12CA3KnFXeCQnOBUFz7MFwNpN8YFBxJrqblEfslSziTJ403BZ86LC2fW0hsvMJNl3K2xFajaBlwVm8foVx1te/4wKgezkh1DEqVxrWc+8y6ed+3qiH5+kfAesFvwy+fJlnYv8LOyQWJnJwaGqcLp3C9BUjoaWv2CneXBbRyAkChnr+6pPixqrUt2C6utEcmAJoiSdcxxhxfhpAkBhocg="
+
+env:
+  - DATABASE_URL=postgres://postgres:postgres@localhost:5432/travis_ci_test
+
+# Install pip dependencies
+install:
+  - pip install -r requirements.txt
+
+# Create test database
+before_script:
+  - psql -c 'create database travis_ci_test;' -U postgres
+
+# Run the unit test
+script:
+  - python manage.py test
+  - sonar-scanner
+
+# Deploy to heroku server
+deploy:
+  provider: heroku
+  api_key:
+    secure: "hxLV8wZD2iOMYKudbYt4yZ7fJ2NSEe+BCjPBfxDMzAImnJUoarl8lyyigt8WPGo/LNbFsKwf6glMvK9cACwFzuUTJp9O1NcPPmV+ykEa5LC6k9Z7OSTHL/TqhcWpMjzH/AV0neg9vlxQHtJhGynxBvxGdiXIaNX0OkdaFAnqdcyYK813M50F7Ui7kclxdyNbnUMniyc83x9uzKkewedEUXk1ZnpekICnAS8br4b0QYHRFyxF5AQTyRqprRMh4km1lNNQxaqRLs3WP85D6sFX61Ae98Nnek8bl9DZqsvTwP2ERqjUDmW+uesJkMnN8nq0KvJLt+c3F25ZJ5ZVU5cdez+7LaibkilQXZsi/csh3S93biWtuf2JXo3by9Fku+OieqQ1mOC7t/9EhUTeVmm60ysoWr61FUHWeWOIvsyVdsqWWtcwOMn2c0UoncKlqiEiQhZwVmq13dr2rOyMbP+mJyNaC7r/U66+l1UGxaAQSZt0gVcyLLv6WxyTX5OFquId+/aOrR1ALzCqAFHJz9gOgTVTaEXWw5T38jn+HSZMxeWmfL9O+8qiEfS0OPA3PlROWkMPNIRbLugZ2rPxRIH2ESRY0TnXhgrksQ3S7WhHdSTvWFYSlzHJbwDiBw3nY92qROwkH4zizzzt1MFmZ7xtiKajYlZKdDlZIyDLggCpaYw="
+  app: thaitrancv
+  on:
+    repo: tnmthai/django-curriculum-landing
+    branch: master

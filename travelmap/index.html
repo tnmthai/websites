@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My travel map</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link rel="stylesheet" type="text/css" href="css/leaflet.css" />
+	<style>
+		.leaflet-control-layers-toggle:after{ 
+			content:"Expand"; 
+			color:#000 ;
+		}
+		.leaflet-control-layers-toggle{ 
+			width:auto;
+			background-position:3px 50% ;
+			padding:3px;
+			padding-left:36px;
+			text-decoration:none;
+			line-height:36px;
+		}
+	</style>
+    <link rel="stylesheet" type="text/css" href="css/MarkerCluster.css" />
+    <link rel="stylesheet" type="text/css" href="css/MarkerCluster.Default.css" />
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/leaflet.js"></script>
+    <script type="text/javascript" src="js/leaflet.markercluster.js"></script>
+  </head>
+
+  <body>
+    <h1>My travel map</h1>
+    <div id="map" style="width: 900px; height: 600px; border: 1px solid #AAA;"></div>
+	
+ 
+	<script type="text/javascript" src="data/countries.js"></script>
+    <script type="text/javascript" src="data/markers.js"></script>
+	<script type="text/javascript" src="data/flights.js"></script>	
+    <script type="text/javascript" src="js/travelmap.js"></script>
+  </body>
+  <footer>
+		<table border="0" width="100%" >
+		<tbody align="left">
+		<tr >
+		<td width="85%">
+		<br/>Update: 01 April 2021
+		<br/>By Thai Tran   
+		</td>
+		<td width="2%">
+		</td>
+		<td align="right"width="13%">
+		<!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
+		<!-- Histats.com  START  (aync)-->
+		<script type="text/javascript">var _Hasync= _Hasync|| [];
+		_Hasync.push(['Histats.start', '1,4525191,4,605,110,55,00011111']);
+		_Hasync.push(['Histats.fasi', '1']);
+		_Hasync.push(['Histats.track_hits', '']);
+		(function() {
+		var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+		hs.src = ('//s10.histats.com/js15_as.js');
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+		})();</script>
+		<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4525191&101" alt="free site statistics" border="0"></a></noscript>
+		<!-- Histats.com  END  -->
+
+		</td>
+
+		</tr>
+		</tbody></table>
+  </footer>
+</html>

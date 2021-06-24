@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  corona-py:
+    build:
+      context: .
+    image: corona-py:$VERSION
+    container_name: corona-py
+    ports:
+      - "3810:8050"
+    environment:
+      - TARGET=$TARGET
+    restart: unless-stopped
+

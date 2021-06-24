@@ -1,0 +1,390 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [ {
+    "geometry" : {
+      "coordinates" : [ 172.6412792, -43.5280045 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "https://www.google.com/maps/place//data=!4m2!3m1!1s0x0:0x689b5d7e8d17b14c",
+      "Location" : {
+        "Address" : "Armagh Street, Christchurch Central City, Christchurch 8013, New Zealand",
+        "Business Name" : "Margaret Mahy Playground",
+        "Country Code" : "NZ",
+        "Geo Coordinates" : {
+          "Latitude" : "-43.5280045",
+          "Longitude" : "172.6412792"
+        }
+      },
+      "Published" : "2021-04-06T00:52:45.067757Z",
+      "Star Rating" : 4
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 172.4822688, -43.6403314 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "https://www.google.com/maps/place//data=!4m2!3m1!1s0x0:0x4c81450e603782ae",
+      "Location" : {
+        "Address" : "22 Gerald Street, Lincoln 7608, New Zealand",
+        "Business Name" : "Lincoln Library & Service Centre",
+        "Country Code" : "NZ",
+        "Geo Coordinates" : {
+          "Latitude" : "-43.6403314",
+          "Longitude" : "172.4822688"
+        }
+      },
+      "Published" : "2021-03-27T23:15:39.345634Z",
+      "Star Rating" : 5
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 172.4925208, -43.6480354 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "https://www.google.com/maps/place//data=!4m2!3m1!1s0x0:0x41cf5ff6b0e72baf",
+      "Location" : {
+        "Address" : "Russ Drive, Lincoln 7608, New Zealand",
+        "Business Name" : "Ararira Springs Primary",
+        "Country Code" : "NZ",
+        "Geo Coordinates" : {
+          "Latitude" : "-43.6480354",
+          "Longitude" : "172.4925208"
+        }
+      },
+      "Published" : "2021-02-17T02:09:32.868675Z",
+      "Star Rating" : 5
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 172.5759741, -43.5992509 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "https://www.google.com/maps/place//data=!4m2!3m1!1s0x0:0xdd47c94c7969ddab",
+      "Location" : {
+        "Address" : "Kennedy's Bush Road, Halswell, Christchurch 8025, New Zealand",
+        "Business Name" : "Halswell Quarry",
+        "Country Code" : "NZ",
+        "Geo Coordinates" : {
+          "Latitude" : "-43.5992509",
+          "Longitude" : "172.5759741"
+        }
+      },
+      "Published" : "2020-10-02T10:44:26.400132Z",
+      "Star Rating" : 4
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 172.0202894, -43.3895249 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "https://www.google.com/maps/place//data=!4m2!3m1!1s0x0:0x671cfc12402b31b1",
+      "Location" : {
+        "Address" : "51 Great Alpine Highway, Sheffield 7681, New Zealand",
+        "Business Name" : "The Famous Sheffield Pie Shop",
+        "Country Code" : "NZ",
+        "Geo Coordinates" : {
+          "Latitude" : "-43.3895249",
+          "Longitude" : "172.0202894"
+        }
+      },
+      "Published" : "2020-06-09T00:32:44.532212Z",
+      "Star Rating" : 3
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 171.7221316, -43.2335052 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "https://www.google.com/maps/place//data=!4m2!3m1!1s0x0:0x6263cc4bb99bc262",
+      "Location" : {
+        "Address" : "Castle Hill 7580, New Zealand",
+        "Business Name" : "Kura Tawhiti Access Track",
+        "Country Code" : "NZ",
+        "Geo Coordinates" : {
+          "Latitude" : "-43.2335052",
+          "Longitude" : "171.7221316"
+        }
+      },
+      "Published" : "2020-06-09T00:32:32.818572Z",
+      "Star Rating" : 4
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 171.7159871, -43.2300399 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "https://www.google.com/maps/place//data=!4m2!3m1!1s0x0:0xebf8ac378d1fd1e",
+      "Location" : {
+        "Address" : "Castle Hill 7580, New Zealand",
+        "Business Name" : "Kura Tawhiti / Castle Hill Conservation Area",
+        "Country Code" : "NZ",
+        "Geo Coordinates" : {
+          "Latitude" : "-43.2300399",
+          "Longitude" : "171.7159871"
+        }
+      },
+      "Published" : "2020-06-09T00:32:07.432248Z",
+      "Star Rating" : 4
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 173.7162471, -42.4235335 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "https://www.google.com/maps/place//data=!4m2!3m1!1s0x0:0x248a6fc9544b1fca",
+      "Location" : {
+        "Address" : "40 Fyffe Quay, Kaikōura Peninsula, Kaikōura 7300, New Zealand",
+        "Business Name" : "Point Kean Viewpoint",
+        "Country Code" : "NZ",
+        "Geo Coordinates" : {
+          "Latitude" : "-42.4235335",
+          "Longitude" : "173.7162471"
+        }
+      },
+      "Published" : "2020-02-05T06:54:43.165369Z",
+      "Star Rating" : 3
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 172.5983219, -43.5297583 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "https://www.google.com/maps/place//data=!4m2!3m1!1s0x0:0x72be3b9e822de00b",
+      "Location" : {
+        "Address" : "126 Riccarton Road, Riccarton, Christchurch 8041, New Zealand",
+        "Business Name" : "AA Centre",
+        "Country Code" : "NZ",
+        "Geo Coordinates" : {
+          "Latitude" : "-43.5297583",
+          "Longitude" : "172.5983219"
+        }
+      },
+      "Published" : "2020-01-06T08:05:14.295721Z",
+      "Review Comment" : "Very bad.",
+      "Star Rating" : 1
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 171.7511966, -43.8977560 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "https://www.google.com/maps/place//data=!4m2!3m1!1s0x0:0xf00ef87655c2320",
+      "Location" : {
+        "Address" : "Ashburton 7700, New Zealand",
+        "Business Name" : "Ashburton Domain",
+        "Country Code" : "NZ",
+        "Geo Coordinates" : {
+          "Latitude" : "-43.8977560",
+          "Longitude" : "171.7511966"
+        }
+      },
+      "Published" : "2020-01-06T08:03:20.687676Z",
+      "Star Rating" : 5
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 172.4991049, -43.6409770 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "https://www.google.com/maps/place//data=!4m2!3m1!1s0x0:0x25e18adeb695a61d",
+      "Location" : {
+        "Address" : "Poulter Road, Rosemerryn, Lincoln 7608, New Zealand",
+        "Business Name" : "Rosemerryn",
+        "Geo Coordinates" : {
+          "Latitude" : "-43.6409770",
+          "Longitude" : "172.4991049"
+        }
+      },
+      "Published" : "2019-11-18T02:58:49.392172Z",
+      "Review Comment" : "Good place for children.",
+      "Star Rating" : 5
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 105.6451123, 10.4045535 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "https://www.google.com/maps/place//data=!4m2!3m1!1s0x0:0x242b216289407828",
+      "Location" : {
+        "Address" : "Tân Mỹ, Lấp Vò, Đồng Tháp, Việt Nam",
+        "Business Name" : "Phòng khám sản phụ khoa Bs Nguyễn Thị Tươi",
+        "Country Code" : "VN",
+        "Geo Coordinates" : {
+          "Latitude" : "10.4045535",
+          "Longitude" : "105.6451123"
+        }
+      },
+      "Published" : "2019-04-26T04:10:46.724609Z",
+      "Review Comment" : "Máy mới, bác sĩ mát tay.",
+      "Star Rating" : 5
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 172.6082041, -43.5233607 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "https://www.google.com/maps/place//data=!4m2!3m1!1s0x0:0xf00ef87655c1350",
+      "Location" : {
+        "Address" : "40 Mona Vale Avenue, Riccarton, Christchurch 8011, New Zealand",
+        "Business Name" : "Mona Vale Garden Park",
+        "Country Code" : "NZ",
+        "Geo Coordinates" : {
+          "Latitude" : "-43.5233607",
+          "Longitude" : "172.6082041"
+        }
+      },
+      "Published" : "2019-04-19T02:30:07.872493Z",
+      "Star Rating" : 2
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 172.4615386, -43.6442651 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "https://www.google.com/maps/place//data=!4m2!3m1!1s0x0:0xde673df1b3c9ff62",
+      "Location" : {
+        "Address" : "Lincoln 7674, New Zealand",
+        "Business Name" : "Lincoln No. 3",
+        "Country Code" : "NZ",
+        "Geo Coordinates" : {
+          "Latitude" : "-43.6442651",
+          "Longitude" : "172.4615386"
+        }
+      },
+      "Published" : "2019-04-18T04:06:48.427141Z",
+      "Star Rating" : 1
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 174.7751534, -41.2842404 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "https://www.google.com/maps/place//data=!4m2!3m1!1s0x0:0x97328a7770c44793",
+      "Location" : {
+        "Address" : "280 Lambton Quay, Wellington Central, Wellington 6011, New Zealand",
+        "Business Name" : "Wellington Cable Car",
+        "Geo Coordinates" : {
+          "Latitude" : "-41.2842404",
+          "Longitude" : "174.7751534"
+        }
+      },
+      "Published" : "2019-01-12T20:58:13.422319Z",
+      "Review Comment" : "Good",
+      "Star Rating" : 3
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 174.7834940, -41.2899975 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "https://www.google.com/maps/place//data=!4m2!3m1!1s0x0:0x1946203432984283",
+      "Location" : {
+        "Address" : "Te Aro, Wellington 6011, New Zealand",
+        "Business Name" : "Wellington Waterfront Walk",
+        "Country Code" : "NZ",
+        "Geo Coordinates" : {
+          "Latitude" : "-41.2899975",
+          "Longitude" : "174.7834940"
+        }
+      },
+      "Published" : "2019-01-12T20:57:57.542611Z",
+      "Review Comment" : "Fair",
+      "Star Rating" : 2
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 174.7846434, -41.3195432 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "https://www.google.com/maps/place//data=!4m2!3m1!1s0x0:0xc1639a1ffd228038",
+      "Location" : {
+        "Address" : "200 Daniell Street, Newtown, Wellington 6021, New Zealand",
+        "Business Name" : "Wellington Zoo",
+        "Country Code" : "NZ",
+        "Geo Coordinates" : {
+          "Latitude" : "-41.3195432",
+          "Longitude" : "174.7846434"
+        }
+      },
+      "Published" : "2019-01-12T13:02:09.866371Z",
+      "Review Comment" : "Fair",
+      "Star Rating" : 2
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 172.6222568, -43.5313386 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "https://www.google.com/maps/place//data=!4m2!3m1!1s0x0:0x580e398bb0fdc546",
+      "Location" : {
+        "Address" : "City Centre Rolleston Avenue, Christchurch Central City, Christchurch 8013, New Zealand",
+        "Business Name" : "Christchurch Botanic Gardens",
+        "Country Code" : "NZ",
+        "Geo Coordinates" : {
+          "Latitude" : "-43.5313386",
+          "Longitude" : "172.6222568"
+        }
+      },
+      "Published" : "2019-01-12T13:01:51.253995Z",
+      "Review Comment" : "Goood",
+      "Star Rating" : 4
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 174.7768663, -41.2837438 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "https://www.google.com/maps/place//data=!4m2!3m1!1s0x0:0x2a41baf2d289b1cf",
+      "Location" : {
+        "Address" : "153 Featherston Street, Wellington Central, Wellington 6011, New Zealand",
+        "Business Name" : "ibis Wellington",
+        "Country Code" : "NZ",
+        "Geo Coordinates" : {
+          "Latitude" : "-41.2837438",
+          "Longitude" : "174.7768663"
+        }
+      },
+      "Published" : "2018-12-10T21:18:52.177167Z",
+      "Review Comment" : "Good",
+      "Star Rating" : 5
+    },
+    "type" : "Feature"
+  } ]
+}
